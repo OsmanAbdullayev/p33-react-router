@@ -49,7 +49,7 @@ function Navbar() {
 							</NavLink>
 						</div>
 					</div>
-					<NavLink to="#" className="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">
+					<NavLink to="/contact" className="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">
 						Contact <i className="bi bi-arrow-right" />
 					</NavLink>
 				</div>

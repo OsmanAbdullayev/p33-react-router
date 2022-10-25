@@ -14,6 +14,7 @@ import Teams from "../pages/Teams";
 import Testimonials from "../pages/Testimonials";
 import Blogs from "../pages/Blogs";
 import Details from "../pages/Details";
+import Contact from "../pages/Contact";
 import NotFoundPage from '../pages/NotFoundPage';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
 				<Route path="/testimonials" element={<Testimonials />}></Route>
 				<Route path="/blogs" element={<Blogs />}></Route>
 				<Route path="/details" element={<Details />}></Route>
+				<Route path="/contact" element={<Contact />}></Route>
 				<Route path="*" element={<NotFoundPage />}></Route>
 			</Routes>
         <Footer />
