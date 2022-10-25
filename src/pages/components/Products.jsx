@@ -1,4 +1,7 @@
 import React from "react";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 function Products() {
 	return (
@@ -8,7 +11,7 @@ function Products() {
 					<h6 className="text-primary text-uppercase">Products</h6>
 					<h1 className="display-5 text-uppercase mb-0">Products For Your Best Friends</h1>
 				</div>
-				<div className="owl-carousel product-carousel">
+				<OwlCarousel items={3} className="owl-theme owl-carousel product-carousel" loop nav margin={8}>
 					<div className="pb-5">
 						<div className="product-item position-relative bg-light d-flex flex-column text-center">
 							<img className="img-fluid mb-4" src="img/product-1.png" alt />
@@ -84,11 +87,10 @@ function Products() {
 							</div>
 						</div>
 					</div>
-				</div>
+				</OwlCarousel>
 			</div>
 		</div>
 	);
 }
-
 
 export default Products;

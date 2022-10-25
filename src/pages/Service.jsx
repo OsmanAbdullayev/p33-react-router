@@ -10,7 +10,6 @@ import Footer from "./components/Footer";
 function Service() {
 	return (
 		<>
-			<Navbar />
 			<Hero />
 			<Services />
 			<Testimonial />

@@ -1,4 +1,7 @@
 import React from "react";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 function Team() {
 	return (
@@ -8,7 +11,7 @@ function Team() {
 					<h6 className="text-primary text-uppercase">Team Members</h6>
 					<h1 className="display-5 text-uppercase mb-0">Qualified Pets Care Professionals</h1>
 				</div>
-				<div className="owl-carousel team-carousel position-relative" style={{ paddingRight: 25 }}>
+				<OwlCarousel items={3}  loop nav margin={8} className="owl-theme owl-carousel team-carousel position-relative" style={{ paddingRight: 25 }}>
 					<div className="team-item">
 						<div className="position-relative overflow-hidden">
 							<img className="img-fluid w-100" src="img/team-1.jpg" alt />
@@ -119,7 +122,7 @@ function Team() {
 							<p className="m-0">Designation</p>
 						</div>
 					</div>
-				</div>
+				</OwlCarousel>
 			</div>
 		</div>
 	);
