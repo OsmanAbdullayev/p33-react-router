@@ -15,17 +15,20 @@ function Navbar() {
 			</button>
 			<div className="collapse navbar-collapse" id="navbarCollapse">
 				<div className="navbar-nav ms-auto py-0">
-					<NavLink to="/home" className="nav-item nav-link">
+					<NavLink  to="/" end className="nav-item nav-link">
 						Home
 					</NavLink>
-					<NavLink to="/about" className="nav-item nav-link">
+					<NavLink  to="/about" className="nav-item nav-link">
 						About
 					</NavLink>
-					<NavLink to="/service" className="nav-item nav-link">
+					<NavLink  to="/service" className="nav-item nav-link">
 						Service
 					</NavLink>
-					<NavLink to="/product" className="nav-item nav-link">
+					<NavLink  to="/product" className="nav-item nav-link">
 						Product
+					</NavLink>
+					<NavLink  to="/profile" className="nav-item nav-link">
+						Profile
 					</NavLink>
 					<div className="nav-item dropdown">
 						<NavLink to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">
